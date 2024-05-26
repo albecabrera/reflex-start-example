@@ -1,15 +1,16 @@
 import reflex as rx
 import link_bio.styles.styles as styles
+from link_bio.styles.styles import Size as Size
 
-
-def link_button(title: str, body: str, url: str) -> rx.Component:
+def link_button(title: str, body: str, url: str, icon: str) -> rx.Component:
     return rx.link(
         rx.button(
             rx.hstack(
                 rx.icon(
-                    tag="youtube",
-                    width=styles.Size.BIG.value,
-                    height=styles.Size.BIG.value
+                    tag=icon,
+                    width=Size.BIG.value,
+                    height=Size.BIG.value,
+                    margin=Size.MEDIUM.value
                 ),
                 rx.vstack(
                     rx.text(
@@ -20,7 +21,9 @@ def link_button(title: str, body: str, url: str) -> rx.Component:
                         body,
                         style=styles.button_body_style
                     ),
-                    align_items="start"
+                    spacing="0",
+                    align_items="start",
+                    margin=Size.ZERO.value
                 )
             )
         ),

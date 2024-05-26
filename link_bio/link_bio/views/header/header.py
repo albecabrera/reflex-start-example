@@ -3,19 +3,25 @@ from link_bio.components.link_icon import link_icon
 from link_bio.components.info_text import info_text
 from link_bio.styles.styles import Size as Size
 from link_bio.styles.colors import TextColor as TextColor
+from link_bio.styles.colors import Color as Color
 
 def header () -> rx.Component:
     return rx.vstack(
         rx.hstack(
             rx.avatar(
-                name="Julio Machado",
-                size="6"
+                fallback="JM",
+                size="6",
+                src="/avatar.jpg",
+                radius="full",
+                color=TextColor.BODY.value,
+                bg=Color.CONTENT.value,
+                padding="2px",
+                border=f"4px solid {Color.PRIMARY.value}"
             ),
             rx.vstack(
                 rx.heading(
                     "Julio Machado",
-                    size="4",
-                    color=TextColor.HEADER.value
+                    size="4"
                 ),
                 rx.text(
                     "@JulioV93",
@@ -23,10 +29,10 @@ def header () -> rx.Component:
                     color=TextColor.BODY.value
                 ),
                 rx.hstack(
-                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/"),
-                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/"),
-                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/"),
-                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/"),
+                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "linkedin"),
+                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "github"),
+                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "youtube"),
+                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "twitch"),
                 ),
                 align_items="start"
             ),

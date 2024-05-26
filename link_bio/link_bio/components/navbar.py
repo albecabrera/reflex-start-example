@@ -1,4 +1,5 @@
 import reflex as rx
+import link_bio.styles.styles as styles
 from link_bio.styles.styles import Size as Size
 from link_bio.styles.colors import Color as Color
 
@@ -14,7 +15,8 @@ def navbar() -> rx.Component:
                 "MV93",
                 as_="span",
                 color=Color.SECONDARY.value
-            )
+            ),
+            style=styles.navbar_title_style
         ),
         position="sticky",
         bg=Color.CONTENT.value,

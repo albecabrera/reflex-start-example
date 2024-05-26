@@ -20,7 +20,8 @@ def index() -> rx.Component:
                 align="center",
                 max_width=styles.MAX_WIDTH,
                 width="100%",
-                margin_y=Size.BIG.value
+                margin_y=Size.BIG.value,
+                padding=Size.BIG.value
             )
         ),
         footer()
@@ -29,4 +30,7 @@ def index() -> rx.Component:
 app = rx.App(
     style=styles.BASE_STYLE
 )
-app.add_page(index)
+app.add_page(
+    index,
+    title="Julio Machado | Software Engineer"
+)
