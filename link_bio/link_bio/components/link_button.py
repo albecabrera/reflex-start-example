@@ -10,7 +10,8 @@ def link_button(title: str, body: str, url: str, icon: str) -> rx.Component:
                     tag=icon,
                     width=Size.BIG.value,
                     height=Size.BIG.value,
-                    margin=Size.MEDIUM.value
+                    margin=Size.MEDIUM.value,
+                    alt=title
                 ),
                 rx.vstack(
                     rx.text(
@@ -23,8 +24,11 @@ def link_button(title: str, body: str, url: str, icon: str) -> rx.Component:
                     ),
                     spacing="0",
                     align_items="start",
-                    margin=Size.ZERO.value
-                )
+                    margin=Size.ZERO.value,
+                    padding_y=Size.SMALL.value,
+                    padding_right=Size.SMALL.value
+                ),
+                width="100%"
             )
         ),
         href=url,

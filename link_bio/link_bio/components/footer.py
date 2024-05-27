@@ -5,7 +5,12 @@ from link_bio.styles.colors import TextColor as TextColor
 
 def footer() -> rx.Component:
     return rx.vstack(
-        rx.image(src="favicon.ico"),
+        rx.image(
+            src="favicon.ico",
+            height=Size.VERY_BIG.value,
+            weight=Size.VERY_BIG.value,
+            alt="Logotipo de Reflex."
+        ),
         rx.link(
             f"2018 - {datetime.date.today().year} JulioMV93",
             href="https://www.linkedin.com/in/julio-alejandro-machado/",
@@ -19,5 +24,6 @@ def footer() -> rx.Component:
         align="center",
         margin_bottom=Size.BIG.value,
         padding_bottom=Size.BIG.value,
+        padding_x=Size.BIG.value,
         color=TextColor.FOOTER.value
     )

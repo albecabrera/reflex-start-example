@@ -29,10 +29,10 @@ def header () -> rx.Component:
                     color=TextColor.BODY.value
                 ),
                 rx.hstack(
-                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "linkedin"),
-                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "github"),
-                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "youtube"),
-                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "twitch"),
+                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "linkedin", "linkedin"),
+                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "github", "github"),
+                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "youtube", "youtube"),
+                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "twitch", "twitch"),
                 ),
                 align_items="start"
             ),

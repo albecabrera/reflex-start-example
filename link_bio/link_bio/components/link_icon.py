@@ -1,11 +1,13 @@
 import reflex as rx
 import link_bio.styles.styles as styles
+from link_bio.styles.styles import Size as Size
 
-
-def link_icon(url: str, icon: str) -> rx.Component:
+def link_icon(url: str, icon: str, alt: str) -> rx.Component:
     return rx.link(
         rx.icon(
-            tag=icon
+            tag=icon,
+            width=Size.LARGE.value,
+            alt=alt
         ),
         href=url,
         is_external=True,
