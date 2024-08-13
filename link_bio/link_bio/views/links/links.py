@@ -9,12 +9,6 @@ def links() -> rx.Component:
             "Personales"
         ),
         link_button(
-            "Twitch",
-            "Canal de Twitch",
-            "https://www.twitch.tv/juliomv93",
-            "twitch"
-        ),
-        link_button(
             "Youtube",
             "Canal de YouTube",
             "https://www.youtube.com/channel/UCaRhTIsmEQYwkrkb_iHmt9A",
