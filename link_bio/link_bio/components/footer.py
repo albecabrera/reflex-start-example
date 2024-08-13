@@ -17,7 +17,7 @@ def footer() -> rx.Component:
             is_external=True
         ),
         rx.text(
-            "Software Engineer | Ingenierio en Computación e Informática",
+            "Fullstack Developer",
             font_size=Size.MEDIUM.value,
             margin_top=Size.ZERO.value
         ),
