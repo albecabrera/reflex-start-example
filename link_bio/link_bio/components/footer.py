@@ -12,7 +12,7 @@ def footer() -> rx.Component:
             alt="Logotipo de Reflex."
         ),
         rx.link(
-            f"2018 - {datetime.date.today().year} JulioMV93",
+            f"2023 - {datetime.date.today().year} ACWebdesign3",
             href="https://www.linkedin.com/in/julio-alejandro-machado/",
             is_external=True
         ),

@@ -3,6 +3,8 @@ Curso de PYTHON WEB desde CERO- Profesor MoureDev
 
 ## Instalar reflex
 
+git clone <url-to-this-repo>
+
 ```sh
 cd link_bio
 python3 -m venv .venv

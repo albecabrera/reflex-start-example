@@ -33,5 +33,5 @@ app = rx.App(
 )
 app.add_page(
     index,
-    title="Julio Machado | Software Engineer"
+    title="Alberto Cabrera | Fullstack Developer"
 )

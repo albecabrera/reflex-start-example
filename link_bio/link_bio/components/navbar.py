@@ -7,12 +7,12 @@ def navbar() -> rx.Component:
     return rx.hstack(
         rx.box(
             rx.text(
-                "Julio",
+                "AC",
                 as_="span",
                 color=Color.PRIMARY.value
             ),
             rx.text(
-                "MV93",
+                "Webdesign",
                 as_="span",
                 color=Color.SECONDARY.value
             ),
