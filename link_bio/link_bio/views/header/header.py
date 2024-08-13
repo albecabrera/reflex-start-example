@@ -40,9 +40,6 @@ def header () -> rx.Component:
         rx.flex(
             info_text("+2", "años de experiencia"),
             rx.spacer(),
-            
-            info_text("+10", "aplicaciones creadas"),
-            rx.spacer(),
         ),
         rx.text(
             "Soy Fullstack Developer y mi pasión es crear aplicaciones web. Cuento con más de 2 años de experiencia en la resolución de desafíos tecnológicos utilizando HTML, CSS, JS, PHP, Python, GIT y Frameworks como React y Astro.",
