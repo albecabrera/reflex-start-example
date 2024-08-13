@@ -13,7 +13,7 @@ def footer() -> rx.Component:
         ),
         rx.link(
             f"2023 - {datetime.date.today().year} ACWebdesign3",
-            href="https://www.linkedin.com/in/julio-alejandro-machado/",
+            href="https://www.linkedin.com/in/alberto-cabrera-32160b297/",
             is_external=True
         ),
         rx.text(

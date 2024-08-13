@@ -17,13 +17,13 @@ def links() -> rx.Component:
         link_button(
             "github",
             "Repositorio de GitHub",
-            "https://github.com/JulioV93",
+            "https://github.com/albecabrera",
             "github"
         ),
         link_button(
             "Linkedin",
             "Perfil de Linkedin",
-            "https://www.linkedin.com/in/julio-alejandro-machado/",
+            "https://www.linkedin.com/in/alberto-cabrera-32160b297/",
             "linkedin"
         ),
         title(

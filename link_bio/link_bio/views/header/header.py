@@ -29,8 +29,9 @@ def header () -> rx.Component:
                     color=TextColor.BODY.value
                 ),
                 rx.hstack(
-                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "linkedin", "linkedin"),
-                    link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "github", "github"),
+                    link_icon("https://www.linkedin.com/in/alberto-cabrera-32160b297/", "linkedin", "linkedin"),
+                    link_icon("https://github.com/albecabrera", "github", "github"),
+                    # Escribir la dirección de youtube aquí abajo
                     link_icon("https://www.linkedin.com/in/julio-alejandro-machado/", "youtube", "youtube"),
                 ),
                 align_items="start"
