@@ -1,5 +1,4 @@
-# python-web
-Curso de PYTHON WEB desde CERO- Profesor MoureDev
+# Mi primer curso de Python-Reflex (aprendiendo con MoureDev) 
 
 ## Instalar reflex
 
